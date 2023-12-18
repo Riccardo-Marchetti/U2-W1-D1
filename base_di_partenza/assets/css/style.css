@@ -371,9 +371,10 @@ footer a {
 
     width: 100%;
   }
-  header li {
+  header nav {
     display: inline-block;
-    text-align: right;
+    padding-left: 400px;
+    padding-top: 10px;
   }
   img {
     display: inline-block;
@@ -387,26 +388,39 @@ footer a {
   }
   main {
     padding-left: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
   }
   footer {
     padding-left: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
   }
   iframe {
-    width: 40%;
+    width: 50%;
     height: 300px;
     display: inline-block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   section {
     width: 50%;
     display: inline-block;
-    height: 300px;
+    height: 280px;
+    float: right;
+    border-radius: 20px;
   }
   input {
     width: 350px;
   }
   button {
     width: 100px;
+  }
+  div {
+    display: inline-block;
+    width: 33.3%;
+    margin: -2px;
+  }
+  address {
+    font-size: 28px;
+    text-align: center;
   }
 }
